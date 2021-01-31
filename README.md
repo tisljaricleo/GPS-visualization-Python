@@ -1,4 +1,4 @@
-# GPS-visualization-Python
+# GPS-visualization-Python :globe_with_meridians:
 Simple method for the visualization of the GPS records using Python and Open Street Maps.
 
 ## Requirements
