@@ -16,7 +16,7 @@ Result:
 ![Results](https://www.dropbox.com/s/x3v8p5wdcr7ulab/map.png?dl=0)
 
 ## More info
-[Medium article] () // under constriction !
+[Medium article](https://tisljaricleo.medium.com/simple-gps-data-visualization-using-python-and-open-street-maps-50f992e9b676)
 
 ## Contact and connect
 [Leo Tisljaric](https://www.linkedin.com/in/leo-ti%C5%A1ljari%C4%87-28a56b123/)
