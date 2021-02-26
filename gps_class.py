@@ -49,13 +49,6 @@ class GPSVis(object):
         :param width: Width of the drawn GPS records.
         :return:
         """
-        # names = ['INDEX', 'TAG', 'DATE', 'TIME', 'LATITUDE', 'LONGITUDE', 'HEIGHT', 'SPEED', 'HEADING', 'VOX']
-        # data = pd.read_csv(self.data_path, names=names, header=0)
-        # data['LATITUDE'] = list(map(lambda x: float(x[:-1]), data['LATITUDE'].values))
-        # data['LONGITUDE'] = list(map(lambda x: float(x[:-1]), data['LONGITUDE'].values))
-        # data2 = pd.DataFrame({'lat': data['LATITUDE'], 'lon': data['LONGITUDE']})
-        # data2.to_csv("data.csv", index=False, header=False)
-
         data = pd.read_csv(self.data_path, names=['LATITUDE', 'LONGITUDE'], sep=',')
 
         self.result_image = Image.open(self.map_path, 'r')
@@ -100,11 +93,3 @@ class GPSVis(object):
         # Ticks must be reversed because the orientation of the image in the matplotlib.
         # image - (0, 0) in upper left corner; coordinate system - (0, 0) in lower left corner
         self.y_ticks = sorted(y_ticks, reverse=True)
-
-
-
-
-
-
-
-
